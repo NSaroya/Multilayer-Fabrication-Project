@@ -7,7 +7,10 @@ patterned layers to produce a variety of test structures, photonic structures, a
 #  Process flow overview
 The first patterned layer (bottom layer) and third patterned layer (top layer) are aluminum (metal; electrically conductive). This second patterned layer (middle layer) is silicon nitride, which is electrically insulating.
 
+<div align="center">
+
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/fa78102a-4ee1-43c7-b4af-21d4e781cfc4)
+</div>
 
 This three-layer structure is sufficient for making a variety of devices while allowing for the wiring formed by lines of aluminum in the bottom and top layers to cross laterally (in the x-y plane). Each of the layers will be patterned using standard microfabrication techniques. The substrate used is a silicon wafer. However, as the Si wafer is itself semiconducting, devices fabricated on the wafer need to be electrically isolated from one another. This is done by having a layer of silicon oxide (SiO2) between the Si wafer and the bottom Al layer.
 
@@ -54,13 +57,15 @@ buffered oxide etch (BOE). Next, the SiO2 layer is deposited by thermal oxidatio
   <strong>Fig 3:</strong> Process flow for session #3: deposit top metal layer, lithography: apply resist, align and expose, develop, wet etching, and resist removal. The top metal layer thickness is 150.70 nm.
 </p>
 
+**Session #4:** This lab session is the final one for the Multilayer project and focuses on characterization of the devices. Instruments you will use include the Wentworth probing station (to test device resistance across the devices), optical microscopy, and optical profilometry.
+
 # Device Inspection and Characterization
 ### Session #1
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/82f9a9b1-bcbb-4ebd-8165-bc7104e67d64)
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/b8f32ebd-0f88-4acd-b20d-da55f072bbdc)
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/8138c19f-4c67-485e-850d-e2eac80fe611)
 <p align="center">
-  <strong>Fig 4:</strong> First layer of aluminum metal deposited - images showing bottom metal layer of greek cross, via chains, and kelvin cross.
+  <strong>Fig 5:</strong> First layer of aluminum metal deposited - images showing bottom metal layer of greek cross, via chains, and kelvin cross.
 </p>
 
 ### Session #2
@@ -68,7 +73,7 @@ buffered oxide etch (BOE). Next, the SiO2 layer is deposited by thermal oxidatio
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/984df287-f68d-456f-a985-d317b96c1a9b)
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/eae672eb-878d-4d38-b05f-610c91f2ab91)
 <p align="center">
-  <strong>Fig 5:</strong> Silicon Nitride Layer Deposition - Greek Cross and Via Chain structures
+  <strong>Fig 6:</strong> Silicon Nitride Layer Deposition - Greek Cross and Via Chain structures
 </p>
 
 ### Session #3
@@ -76,12 +81,39 @@ buffered oxide etch (BOE). Next, the SiO2 layer is deposited by thermal oxidatio
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/2ad58de6-74c1-48a6-ac70-a2bc779108a8)
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/59e884a1-29e2-4a31-96a2-f9911e7844fa)
 <p align="center">
-  <strong>Fig 6:</strong> Greek Cross C2 Structure - showing missing metal deposit near interfacial surfaces
+  <strong>Fig 7:</strong> Greek Cross C2 Structure - showing missing metal deposit near interfacial surfaces
 </p>
 
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/746dde8b-b1fa-406d-aec3-fa71e17ce6ba)
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/36d1fe99-b0c6-47ca-adc9-c756375b80cb)
 ![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/ca5293e9-426d-41fa-be27-06c59adfb273)
 <p align="center">
-  <strong>Fig 7:</strong> Final Via Chain structures - shows some indication of misalignment
+  <strong>Fig 8:</strong> Final Via Chain structures - shows some indication of misalignment
 </p>
+
+### Session #4
+
+![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/08650332-22bc-4376-b521-ca3c2c518167)
+![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/7200d6f9-eae3-4de5-89ee-e9494141f31a)
+![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/9d8bd38b-c77c-44e9-aa11-fb2e4085b7bb)
+<p align="center">
+  <strong>Fig 9:</strong> Wentworth probing station - setup uses a microscope and micro probes to connect devices and test the electrical properties of the devices
+</p>
+
+### Mask Layout
+
+<div align="center">
+  
+![image](https://github.com/NSaroya/Multilayer-Fabrication-Project-/assets/156468713/19da2d5f-4496-4510-a309-c8ade40cb862)
+</div>
+
+<p align="center">
+  <strong>Fig 10:</strong> An overview of one of the die (there are 9 copies on the wafer) for the Multilayer project. Colour key: blue = bottom Al layer; green = middle nitride layer; red = top Al layer. The co-ordinate system can assist
+in locating different features.
+</p>
+
+# Conclusion
+The project involved the fabrication of multilayer devices and test structures using conventional techniques. The final wafer, composed of three layers, enabled the creation of various devices and allowed for lateral wiring. Through the testing process, valuable insights were gained into the complexities of multilayer structure functionality. By identifying specific issues such as underetching and alignment errors, the project provided an opportunity to improve understanding and address challenges in the fabrication process. This knowledge can be leveraged to enhance future fabrication processes, leading to the development of more reliable and effective multilayer devices and test structures.
+
+# Reference
+[1] 	J. C. Sit, "ECE 457 lab manual — 2020–2021," Edmonton, 2023.
